@@ -1,0 +1,25 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Paul Hondola
+	email = paulhondola@gmail.com
+[core]
+	editor = vim
+	excludesFile = ~/.gitignore
+	autocrlf = input
+[init]
+	defaultBranch = main
+	templatedir = /Users/paulhondola/.git-templates
+[credential]
+	helper = osxkeychain
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[fetch]
+	auto = true
+[push]
+	default = simple
