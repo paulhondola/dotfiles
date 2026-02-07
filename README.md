@@ -27,7 +27,7 @@ cd ~/dotfiles
 
 ---
 
-## 📂 Structure
+## Structure
 
 | Directory        | Description                                            |
 | :--------------- | :----------------------------------------------------- |
