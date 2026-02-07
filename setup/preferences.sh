@@ -1,12 +1,8 @@
 #!/bin/bash
 # setup/preferences.sh
 
-# Colors
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
-
 # Install wallpaper
-echo "${GREEN}Setting up Wallpaper...${NC}"
+echo "Setting up Wallpaper..."
 wallpaper_name="shanghai-city-3840x2160-9420.jpeg"
 wallpaper_link="https://4kwallpapers.com/images/wallpapers/$wallpaper_name"
 wget $wallpaper_link && mv $wallpaper_name ~/Pictures/wallpaper.jpeg
@@ -18,8 +14,11 @@ osascript -e 'tell application "System Events" to tell appearance preferences to
 osascript -e 'tell application "System Events" to set picture of every desktop to "/Users/paulhondola/Pictures/wallpaper.jpeg"'
 
 # Clear all persistent apps from the Dock
-echo "${GREEN}Configuring Dock...${NC}"
+echo "Configuring Dock..."
 defaults write com.apple.dock persistent-apps -array
 
 # Restart the Dock to apply changes
 killall Dock
+
+# Install Mac Fan Control
+wget https://crystalidea.com/downloads/macsfancontrol.zip && unzip macsfancontrol.zip && mv "Macs Fan Control.app" /Applications && rm macsfancontrol.zip

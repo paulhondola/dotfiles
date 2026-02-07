@@ -4,11 +4,6 @@
 # Load config if it exists
 [ -f "./config" ] && source ./config
 
-# COLOR
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
-
 # Setup as root
 echo "Setting up as root"
 sudo -v
@@ -21,21 +16,21 @@ while true; do
 done 2>/dev/null &
 
 # Update macOS
-echo "${GREEN}Running macOS updates...${NC}"
+echo "Running macOS updates..."
 ./setup/macos_update.sh
 
 # Install Homebrew
-echo "${GREEN}Running Homebrew setup...${NC}"
+echo "Running Homebrew setup..."
 ./setup/homebrew.sh
 
 # Stow dotfiles
-echo "${GREEN}Stowing dotfiles...${NC}"
+echo "Stowing dotfiles..."
 ./setup/dotfiles.sh
 
 # Install wallpaper and preferences
-echo "${GREEN}Setting up preferences...${NC}"
+echo "Setting up preferences..."
 ./setup/preferences.sh
 
 # Final cleanup or messages
 echo
-echo "${GREEN}Setup Complete!${NC}"
+echo "Setup Complete!"

@@ -1,3 +1,5 @@
+# Download with resuming and segmented downloading
+brew "aria2"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -24,6 +26,8 @@ brew "fastfetch"
 brew "fd"
 # Arbitrary-precision unit-aware calculator
 brew "fend"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Open-source, cross-platform JavaScript runtime environment
