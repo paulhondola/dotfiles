@@ -39,7 +39,7 @@ cd ~/dotfiles
 
 ---
 
-## 🛠️ Configuration Management (GNU Stow)
+## Configuration Management (GNU Stow)
 
 Use `stow` to symlink configuration files from this repository to your home directory.
 
@@ -87,7 +87,7 @@ stow zsh
 
 ---
 
-## 🤖 Utility Scripts
+## Utility Scripts
 
 Located in `scripts/`:
 
