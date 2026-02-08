@@ -8,8 +8,6 @@ brew "bat"
 brew "btop"
 # Console Matrix
 brew "cmatrix"
-# TUI system monitor for Apple Silicon
-brew "devcockpit"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Isolated development environments using Docker
@@ -34,8 +32,6 @@ brew "fzf"
 brew "node"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
-# Scanner for secrets and sensitive data in code
-brew "ggshield"
 # GitHub command-line tool
 brew "gh"
 # Double-Array Trie Library
@@ -52,8 +48,6 @@ brew "mas"
 brew "ninja"
 # Fast and user friendly build system
 brew "meson"
-# Free (GNU) replacement for the Pico text editor
-brew "nano"
 # Theme for zsh
 brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
@@ -84,6 +78,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # AI Coding Agent IDE
 cask "antigravity"
+# Audio utility
+cask "background-music"
 # App for managing battery charging. (Also installs a CLI on first use.)
 cask "battery"
 # Display management tool
@@ -97,16 +93,12 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 cask "font-symbols-only-nerd-font"
-# Download accelerator and organiser
-cask "free-download-manager"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
 cask "google-chrome"
-# Client for the Google Drive storage service
-cask "google-drive"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
 # Free and open-source media player

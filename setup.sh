@@ -19,6 +19,14 @@ done 2>/dev/null &
 echo "Running macOS updates..."
 ./setup/macos_update.sh
 
+# Install Oh My Zsh
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  echo "Installing Oh My Zsh..."
+  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
+else
+  echo "Oh My Zsh already installed."
+fi
+
 # Install Homebrew
 echo "Running Homebrew setup..."
 ./setup/homebrew.sh

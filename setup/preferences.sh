@@ -19,6 +19,3 @@ defaults write com.apple.dock persistent-apps -array
 
 # Restart the Dock to apply changes
 killall Dock
-
-# Install Mac Fan Control
-wget https://crystalidea.com/downloads/macsfancontrol.zip && unzip macsfancontrol.zip && mv "Macs Fan Control.app" /Applications && rm macsfancontrol.zip
