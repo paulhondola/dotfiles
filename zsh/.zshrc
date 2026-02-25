@@ -10,7 +10,6 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
 # Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="agnoster"
 
 # Plugins for Oh My Zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -19,6 +18,8 @@ source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 plugins=(git zoxide eza fzf gh macos thefuck zsh-syntax-highlighting)
+
+
 source $ZSH/oh-my-zsh.sh
 
 # Plugin configuration

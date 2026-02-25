@@ -58,6 +58,8 @@ brew "stow"
 brew "thefuck"
 # Simplified and community-driven man pages
 brew "tldr"
+# Digital clock in ncurses
+brew "tty-clock"
 # Language for application scale JavaScript development
 brew "typescript"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -93,6 +95,8 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 cask "font-symbols-only-nerd-font"
+# Download accelerator and organiser
+cask "free-download-manager"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Desktop client for GitHub repositories
@@ -115,6 +119,8 @@ cask "macs-fan-control"
 cask "mactex"
 # UI replacement for volume, brightness and now playing controls
 cask "mediamate"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Discord music status that works with any media player
 cask "music-presence"
 # Htop on steroids
@@ -123,26 +129,26 @@ cask "neohtop"
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Music streaming service
-cask "spotify"
 # System monitor for the menu bar
 cask "stats"
 # Video game digital distribution service
 cask "steam"
 # Rust-based terminal
 cask "warp"
-# Native desktop client for WhatsApp
-cask "whatsapp"
+# Multiplayer code editor
+cask "zed"
 # Gecko based web browser
 cask "zen"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Goodnotes", id: 1444383602
 mas "Keynote", id: 361285480
+mas "Microsoft Outlook", id: 985367838
 mas "Noir", id: 1592917505
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "WattsConnected", id: 1639692859
+mas "WhatsApp", id: 310633997
 mas "WutheringWaves", id: 6475033368
 vscode "anysphere.cursorpyright"
 vscode "davidanson.vscode-markdownlint"
