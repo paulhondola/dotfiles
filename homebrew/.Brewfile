@@ -143,7 +143,6 @@ cask "zen"
 cask "zoom"
 mas "Goodnotes", id: 1444383602
 mas "Keynote", id: 361285480
-mas "Microsoft Outlook", id: 985367838
 mas "Noir", id: 1592917505
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
