@@ -1,13 +1,21 @@
 # Download with resuming and segmented downloading
 brew "aria2"
+# List ASCII idiomatic names and octal/decimal code-point forms
+brew "ascii"
 # Aquarium animation in ASCII art
 brew "asciiquarium"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Console Bonsai is a bonsai tree generator, written in C using ncurses
+brew "cbonsai"
+# Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
+brew "clang-format"
 # Console Matrix
 brew "cmatrix"
+# Static analysis of C and C++ code
+brew "cppcheck"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Isolated development environments using Docker
@@ -48,10 +56,26 @@ brew "mas"
 brew "ninja"
 # Fast and user friendly build system
 brew "meson"
-# Theme for zsh
-brew "powerlevel10k"
+# Deep clean and optimize your Mac
+brew "mole"
+# Smart, Fast and Extensible Build System
+brew "nx"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Animated pipes terminal screensaver
+brew "pipes-sh"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Theme for zsh
+brew "powerlevel10k"
+# Extremely fast Python linter, written in Rust
+brew "ruff"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 # Programmatically correct mistyped console commands
@@ -80,12 +104,12 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # AI Coding Agent IDE
 cask "antigravity"
-# Audio utility
-cask "background-music"
 # App for managing battery charging. (Also installs a CLI on first use.)
 cask "battery"
 # Display management tool
 cask "betterdisplay"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Write, edit, and chat about your code with AI
@@ -111,6 +135,8 @@ cask "iina"
 cask "jetbrains-toolbox"
 # Multiplayer online battle arena game
 cask "league-of-legends"
+# Discover, download, and run local LLMs
+cask "lm-studio"
 # Software for Logitech devices
 cask "logi-options+"
 # Controls and monitors all fans on Apple computers
@@ -125,6 +151,8 @@ cask "microsoft-teams"
 cask "music-presence"
 # Htop on steroids
 cask "neohtop"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -155,6 +183,10 @@ vscode "llvm-vs-code-extensions.vscode-clangd"
 vscode "ms-python.black-formatter"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "pkief.material-icon-theme"
 vscode "tomoki1207.pdf"
 vscode "yzhang.markdown-all-in-one"

@@ -51,3 +51,18 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# bun completions
+[ -s "/Users/paulhondola/.bun/_bun" ] && source "/Users/paulhondola/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/paulhondola/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# Created by `pipx` on 2026-03-31 20:53:56
+export PATH="$PATH:/Users/paulhondola/.local/bin"

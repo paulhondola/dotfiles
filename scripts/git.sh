@@ -7,7 +7,7 @@ for dir in Faculta/* Developer/*; do
     # Check if the directory contains a .git folder
     if [ -d "$dir/.git" ]; then
         echo "--------------------------------------------------"
-        echo "Updating $dir..."
+        echo "Updating $dir"
         (cd "$dir" && git pull)
     fi
 done
