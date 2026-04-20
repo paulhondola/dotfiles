@@ -66,3 +66,6 @@ export PATH="$PATH:/Users/paulhondola/.lmstudio/bin"
 
 # Created by `pipx` on 2026-03-31 20:53:56
 export PATH="$PATH:/Users/paulhondola/.local/bin"
+
+# strix
+export PATH=/Users/paulhondola/.strix/bin:$PATH

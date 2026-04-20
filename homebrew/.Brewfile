@@ -8,6 +8,10 @@ brew "asciiquarium"
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Next-gen compiler infrastructure
+brew "llvm"
+# Compiler for the C3 language
+brew "c3c"
 # Console Bonsai is a bonsai tree generator, written in C using ncurses
 brew "cbonsai"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
@@ -20,6 +24,8 @@ brew "cppcheck"
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
+# .NET Core
+brew "dotnet"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
 # More intuitive version of du in rust
@@ -40,6 +46,8 @@ brew "fzf"
 brew "node"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
+# Scanner for secrets and sensitive data in code
+brew "ggshield"
 # GitHub command-line tool
 brew "gh"
 # Double-Array Trie Library
@@ -48,10 +56,14 @@ brew "libdatrie"
 brew "libthai"
 # Distributed revision control system
 brew "git"
-# Next-gen compiler infrastructure
-brew "llvm"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Mac App Store command-line interface
 brew "mas"
+# Java-based project management
+brew "maven"
 # Small build system for use with gyp or CMake
 brew "ninja"
 # Fast and user friendly build system
@@ -72,16 +84,26 @@ brew "pipx"
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Object-relational database system
+brew "postgresql@18", link: true
 # Theme for zsh
 brew "powerlevel10k"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Extremely fast Python linter, written in Rust
 brew "ruff"
+# Bash completion for rustc
+brew "rustc-completion"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Open source Firebase alternative
+brew "supabase"
 # Programmatically correct mistyped console commands
 brew "thefuck"
 # Simplified and community-driven man pages
 brew "tldr"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Digital clock in ncurses
 brew "tty-clock"
 # Language for application scale JavaScript development
@@ -94,6 +116,8 @@ brew "wget"
 brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Real-time type-ahead completion for Zsh
@@ -112,12 +136,18 @@ cask "betterdisplay"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
 # Write, edit, and chat about your code with AI
 cask "cursor"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Developer platform
+cask "dotnet-sdk"
 cask "font-symbols-only-nerd-font"
 # Download accelerator and organiser
 cask "free-download-manager"
@@ -127,6 +157,8 @@ cask "ghostty"
 cask "github"
 # Web browser
 cask "google-chrome"
+# Native desktop AI assistant from Google
+cask "google-gemini"
 # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "hot"
 # Free and open-source media player
@@ -171,6 +203,8 @@ cask "zen"
 cask "zoom"
 mas "Goodnotes", id: 1444383602
 mas "Keynote", id: 361285480
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Noir", id: 1592917505
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
